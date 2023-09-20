@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Oswald&display=swap');
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: 500;
+    background-image: url("../img/img1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.header-title {
+    text-align: left;
+    display: block;
+    letter-spacing: 5px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    color: #ffffff;
+}
+.header-title:hover {
+    color: #9c9c9c9c;
+}
+.header-img-text {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+}
+.header-img {
+    float: left;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+}
+.header-text {
+    color: #ffffff;
+    margin-left: 30px;
+    line-height: 25px;
+}
+.header-social-media {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 150px;
+}
+.header-social-media-logo img{
+    padding: 50px;
+    width: 30px;
+    height: 30px;
+}
+.header-inner-title:hover {
+    color: #cfcece9c;
+}
